@@ -19,3 +19,19 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+-------------------------------------------------------------------------------
+Scope
+
+This licence covers the source code of this project only: the recompiler
+(tools/), the runtime (runtime/), the settings program and disk image reader
+(launcher/) and the install scripts.
+
+It does NOT cover:
+- DuckTales: The Quest for Gold itself, or anything made from it (the game
+  files, disk images, the disassembly, the generated C code in gen/ and any
+  compiled ducktales executable). The game is copyright (c) 1990 Disney /
+  Titus / Incredible Technologies.
+- Third-party components, which keep their own licences (see licenses/):
+  SDL2 (zlib), the SPS decoder library CAPSImg (non-commercial use only),
+  font8x8 (public domain).
